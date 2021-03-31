@@ -67,8 +67,7 @@ body {
 .p1 {
     background-image: url(images/illustration-editor-desktop.svg);
     background-repeat: no-repeat;
-    background-position-x: 950px;
-    background-position-y: 70px;
+    background-position: right;
     background-size: 800px;
 }
 
@@ -90,8 +89,9 @@ body {
 
 .text {
     padding-top: 130px;
-    padding-left: 800px;
     padding-bottom: 100px;
+    padding-right: 150px;
+    text-align: right;
 }
 
 .tel img {
@@ -107,7 +107,8 @@ body {
     background-size: 900px;
     background-position-x: -250px;
     background-position-y: 120px;
-    padding-left: 800px;
+    text-align: right;
+    padding-right: 150px;
     padding-top: 300px;
 }
 
