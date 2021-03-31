@@ -105,8 +105,7 @@ body {
     background-image: url(images/illustration-laptop-desktop.svg);
     background-repeat: no-repeat;
     background-size: 900px;
-    background-position-x: -250px;
-    background-position-y: 120px;
+    background-position: left;
     text-align: right;
     padding-right: 150px;
     padding-top: 300px;
