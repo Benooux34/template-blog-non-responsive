@@ -1,0 +1,121 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Overpass', sans-serif;
+    font-size: 16px;
+}
+
+.header {
+    background: #FF6347;
+    height: 500px;
+    border-bottom-left-radius: 100px;
+}
+
+.nav {
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+.dd {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+    font-weight: 300;
+}
+
+.boubou {
+    padding-left: 500px;
+}
+
+.boubou button {
+    margin-left: 20px;
+}
+
+.ht {
+    padding-top: 100px;
+    text-align: center;
+}
+
+
+.ht button {
+    background-color: #f74848; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+    margin-top: 20px;
+}
+
+.ht button:hover {
+    background-color: white;
+    color: #f74848;
+}
+
+.p1 {
+    background-image: url(images/illustration-editor-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-x: 950px;
+    background-position-y: 70px;
+    background-size: 800px;
+}
+
+.p1 h2, h4 {
+    color: hsl(237, 23%, 32%);
+    font-weight: 600;
+}
+
+.para {
+    padding-left: 200px;
+}
+
+.p2 {
+    background-color: hsl(237, 17%, 21%);
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    color: white;
+}
+
+.text {
+    padding-top: 130px;
+    padding-left: 800px;
+    padding-bottom: 100px;
+}
+
+.tel img {
+    float: left;
+    position: absolute;
+    top: 1300px;
+    left: 150px;
+}
+
+.p3 {
+    background-image: url(images/illustration-laptop-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-position-x: -250px;
+    background-position-y: 120px;
+    padding-left: 800px;
+    padding-top: 300px;
+}
+
+.footer {
+    background-color: hsl(240, 10%, 16%);
+    border-top-right-radius: 80px;
+}
+
+.images {
+    padding-left: 120px;
+    padding-top: 50px;
+}
+
